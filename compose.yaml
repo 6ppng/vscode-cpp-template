@@ -1,0 +1,13 @@
+version: '3'
+services:
+  gcc:
+    build:
+      context: "."
+      args:
+        USER_ID: "${USER_ID}"
+        GROUP_ID: "${GROUP_ID}"
+        USER_NAME: "${USER_NAME}"
+    volumes:
+      - ./:/app
+    tty: true
+    user: "${USER_ID}:${GROUP_ID}"

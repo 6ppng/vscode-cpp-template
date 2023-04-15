@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/local/bin/gcc",
+            "cStandard": "c17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerArgs": [
+                "-std=c++17",
+                "-Wall",
+                "-Wextra",
+                "-Wsign-conversion",
+                "-pedantic-errors",
+                "-Werror",
+                "-fdiagnostics-color=always",
+                "-O0",
+                "-ggdb3"
+            ],
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
